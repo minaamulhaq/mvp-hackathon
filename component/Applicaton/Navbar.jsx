@@ -10,6 +10,7 @@ const Navbar = () => {
 
     const navLinks = [
         { name: 'Home', href: '/', icon: <Home size={18} /> },
+        { name: 'Classes', href: '/classes', icon: <Home size={18} /> },
         { name: 'Events', href: '/events', icon: <Calendar size={18} /> },
         { name: 'Dashboard', href: '/dashboard', icon: <LayoutDashboard size={18} /> },
         { name: 'About', href: '/about', icon: <Info size={18} /> },
